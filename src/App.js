@@ -68,39 +68,16 @@ const planets = [
     url: 'img/neptune.jpg' 
   },
 ];
-const Planet = () => {
-    return (
-      { planets.map(( worlds ) => 
-        <div class="container"> 
-        <div class="card">
-          <div>
-            <img src="img/mercury.jpg" alt="Mercury">
-          </div>
-          <h2>Mercury</h2>
-          <p>Mercury is the closest planet to the Sun. Due to its proximity, it's not easily seen except during twilight...</p>
-          <h3>Planet Profile</h3>
-          <ul>
-            <li><strong>Diameter:</strong> 3,031.67 mi</li>
-            <li><strong>Moons:</strong> none</li>
-          </ul>
-        </div>
-        <div class="card">...</div>
-      </div>  
-
-        )};
-    );
-}
 
 
 
-      
+
 
 
 const App = () => {
-  return(
-  <h6>This is a Test</h6>
-  );
+  
 }
+
 // =============================================================
 //   WRITE YOUR CODE BELOW
 // =============================================================
