@@ -112,7 +112,7 @@ const PlanetList = () => {
 // 3: Render the container component to the DOM
 const App = () => {
   return (
-    <PlanetList />
+    <PlanetList planets={planets} />
     
   );
 }
